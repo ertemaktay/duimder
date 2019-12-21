@@ -45,12 +45,6 @@ nav > div {
 }
 .message {
 	/* font-family: "Montserrat", sans-serif; */
-	background: rgb(255, 255, 255);
-	background: linear-gradient(
-		90deg,
-		rgba(255, 255, 255, 0.8911939775910365) 48%,
-		rgba(255, 255, 255, 1) 100%
-	);
 }
 .hr {
 	border: 1px solid rgba(0, 0, 255, 0.089);
