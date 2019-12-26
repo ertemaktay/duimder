@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext,vietnamese");
 
-nav>div {
+nav > div {
 	font-family: "Oswald", sans-serif;
 	font-weight: bold;
 	font-size: 18px;
@@ -61,10 +61,10 @@ nav>div {
 }
 
 .news {
-	box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.288);
+	/* box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.288); */
 }
 
-.media>img {
+.media > img {
 	padding-bottom: 5px;
 	width: 20%;
 	height: 20%;
@@ -80,15 +80,17 @@ nav>div {
 	border-radius: 10px;
 	padding: 20px;
 	box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.719);
+	font-family: "Montserrat", sans-serif;
 }
 
-.activities>p {
+.activities > p {
 	border-top: 1px solid rgb(16, 16, 151);
-	padding-top: 30px;
-	font-size: 20px;
+	padding-top: 10px;
+	font-size: 23px;
 	color: rgb(16, 16, 151);
 	font-weight: 300;
-	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	text-decoration: none;
+	/* font-family: "Open Sans", "Helvetica Neue", sans-serif; */
 }
 
 .activity-date {
@@ -120,7 +122,7 @@ nav>div {
 	padding-left: 20px;
 }
 
-.footer>li {
+.footer > li {
 	font-size: 15;
 }
 
@@ -135,9 +137,7 @@ nav>div {
 
 .photo-gallery .item {
 	padding-bottom: 30px;
-
 }
-
 
 ul {
 	list-style: none;
@@ -258,7 +258,7 @@ ul.social-network li {
 }
 
 @media screen and (max-width: 600px) {
-	.overlay>img {
+	.overlay > img {
 		width: 40%;
 	}
 
