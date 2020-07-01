@@ -6,7 +6,8 @@ body {
   margin: 0;
   padding: 0;
 }
-nav > div {
+
+nav>div {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
   font-size: 18px;
@@ -70,7 +71,11 @@ nav > div {
   /* box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.288); */
 }
 
-.media > img {
+.video {
+  display: relative;
+}
+
+.media>img {
   padding-bottom: 5px;
   width: 20%;
   height: 20%;
@@ -89,15 +94,18 @@ nav > div {
   font-family: "Montserrat", sans-serif;
   flex: 1;
 }
+
 .img-same {
   height: 400px;
   width: 100%;
 }
+
 .img-same img {
   height: 100%;
   width: 100%;
 }
-.activities > p {
+
+.activities>p {
   border-top: 1px solid rgb(16, 16, 151);
   padding-top: 10px;
   font-size: 23px;
@@ -136,7 +144,7 @@ nav > div {
   padding-left: 20px;
 }
 
-.footer > li {
+.footer>li {
   font-size: 15;
 }
 
@@ -272,7 +280,7 @@ ul.social-network li {
 }
 
 @media screen and (max-width: 600px) {
-  .overlay > img {
+  .overlay>img {
     width: 40%;
   }
 
